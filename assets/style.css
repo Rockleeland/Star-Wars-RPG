@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	background-position: right;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.card {
+background-color: darkslategray;
+}
+
+.img-responsive {
+	width: 80%;
+}
+
+/*flex container*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-basis: auto
+  background-color: black;
+  height: 600px;
+  object-fit: contain;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.flex-container>.flex1 {
+  flex: 1.5;
+  background-color: black;
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+
+  
+}
+
+.flex-container>.flex2 {
+  flex: 1;
+  background-color: black;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+
+
+
+
+/*Character icons*/
+.figure {
+  height: auto;
+  width: 165px;
+  width: fit-content;
+  background-color: gray;
+  font-variant: small-caps;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: inline-block;
+  
+}
+
+.figure-caption {
+	color: white;
+}
+

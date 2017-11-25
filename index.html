@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body background = >
+		<div class = "flex-container">
+			<div class = "flex1">
+					<div class="card card-inverse mb-3 card-danger text-center">
+						<div class="card-header"><h2>Star Wars RPG</h2></div>
+						<!-- Character Select -->
+						<div class="card-block" id = "players">
+							<!-- <div id = "players"> -->
+								<h3 id="select-character">Characters</h3>
+								
+									<figure id = "yoda-figure" class = "figure">
+										<figcaption class="figure-caption">Yoda</figcaption>
+										<img class = "img-thumbnail img-fluid yoda-icon" src = "images/yoda.jpg" alt="Responsive image"><br/>
+										<figcaption class="figure-caption" id="yoda-caption">150 HP</figcaption>
+									</figure>
+									<figure id = "obi-wan-figure" class = "figure">
+										<figcaption class="figure-caption">Obi-Wan</figcaption>
+										<img  class = "img-thumbnail img-fluid obi-wan-icon" src="images/obi-wan.jpg"><br/>
+										<figcaption class="figure-caption" id="obi-wan-caption">120 HP</figcaption>
+									</figure>
+									<figure id = "darth-vader-figure" class = "figure">
+										<figcaption class="figure-caption">Darth Vader</figcaption>
+										<img  class = "img-thumbnail img-fluid darth-vader-icon" src = "images/darth-vader.jpg"><br/>
+										<figcaption class="figure-caption" id="darth-vader-caption">180 HP</figcaption>
+									</figure>
+									<figure id = "jango-fett-figure" class = "figure">
+										<figcaption class="figure-caption">Jango Fett</figcaption>
+										<img class = "img-thumbnail img-fluid jango-fett-icon" src = "images/jango-fett.jpg"><br/>
+										<figcaption class="figure-caption" id="jango-fett-caption">120 HP</figcaption>
+									</figure>
+							</div>
+							<!-- Enemies Select -->
+							<div id='potential-enemies' class = "enemies-icon"><h4 id = "attack-header">Enemies Available to Attack</h2></div>
+							<!-- Attack Select -->
+							<div id='fight-section' class = "fight-icon"><h4>Fight Section</h2><br/>
+								<button id="attack-button" class="btn btn-secondary attack-button"><h3>Attack</h3></button>
+							</div>
+							<!-- Defender Section -->
+							<div id='defender-div' class = "defender"><h4 id ="defender">Defender</h2></div> 
+							<div class = "attack" id='attack-description'></div>
+							<div id="message"></div>
+        					<div id="reset"></div>
+						<!-- </div> -->
+					</div>
+       		</div>
+    		<div class = "flex2">
+					<img class ="img-responsive" id ="banner" src = "images/background.jpg" >
+			</div>
+		</div>
+
+
+	<script src="assets/index.js"></script>
+
+</body>
+</html>
